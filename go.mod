@@ -28,7 +28,7 @@ require (
 	github.com/operator-framework/api v0.17.1
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pquerna/otp v1.3.0
-	github.com/prometheus/client_golang v1.13.0
+	github.com/prometheus/client_golang v1.13.1
 	github.com/rs/cors v1.8.2
 	github.com/rs/zerolog v1.28.0
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06

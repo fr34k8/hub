@@ -254,7 +254,7 @@ export const REPOSITORY_KINDS: RepoKindDef[] = [
     label: 'meshery',
     name: 'Meshery designs',
     singular: 'Meshery design',
-    plural: 'Mesher designs',
+    plural: 'Meshery designs',
     icon: <RepositoryIcon kind={RepositoryKind.MesheryDesign} className="mw-100 mh-100" />,
     active: true,
   },
@@ -274,6 +274,15 @@ export const REPOSITORY_KINDS: RepoKindDef[] = [
     singular: 'OPA policies',
     plural: 'OPA policies',
     icon: <RepositoryIcon kind={RepositoryKind.OPA} className="mw-100 mh-100" />,
+    active: true,
+  },
+  {
+    kind: RepositoryKind.OpenCost,
+    label: 'opencost',
+    name: 'OpenCost plugins',
+    singular: 'OpenCost plugin',
+    plural: 'OpenCost plugins',
+    icon: <RepositoryIcon kind={RepositoryKind.OpenCost} className="mw-100 mh-100" />,
     active: true,
   },
   {
@@ -813,7 +822,7 @@ export const CVSS_V3_VECTORS: { [key: string]: CVSSVectorMetric[] } = {
 export const OCI_PREFIX = 'oci://';
 
 export const PKG_DETAIL_PATH =
-  /^\/packages\/(helm|falco|opa|olm|tbaction|krew|helm-plugin|tekton-task|keda-scaler|coredns|keptn|tekton-pipeline|kubewarden|gatekeeper|kyverno|knative-client-plugin|backstage|argo-template|kubearmor|kcl|headlamp|inspektor-gadget|tekton-stepaction|meshery|container)\//;
+  /^\/packages\/(helm|falco|opa|olm|tbaction|krew|helm-plugin|tekton-task|keda-scaler|coredns|keptn|tekton-pipeline|kubewarden|gatekeeper|kyverno|knative-client-plugin|backstage|argo-template|kubearmor|kcl|headlamp|inspektor-gadget|tekton-stepaction|meshery|opencost|container)\//;
 
 export const HOME_ROUTES = [
   '/verify-email',
